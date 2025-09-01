@@ -1,17 +1,16 @@
 {
-  "name": "@repo/db",
+  "name": "@repo/backend-common",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@prisma/client": "6.15.0",
     "@repo/typescript-config": "workspace:*",
-    "prisma": "^6.15.0"
+    "@types/node": "^22.15.3"
   },
   "exports": {
-    "./client": "./src/index.ts"
+    "./config": "./src/config.ts"
   },
   "keywords": [],
   "author": "",
