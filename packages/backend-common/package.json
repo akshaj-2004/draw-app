@@ -7,7 +7,8 @@
   },
   "dependencies": {
     "@repo/typescript-config": "workspace:*",
-    "@types/node": "^22.15.3"
+    "@types/node": "^22.15.3",
+    "dotenv": "^17.2.1"
   },
   "exports": {
     "./config": "./src/config.ts"
