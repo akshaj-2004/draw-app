@@ -5,7 +5,10 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "skipLibCheck": true,
+    "strict": false,
+    "resolveJsonModule": true
   },
   "include": [
     "**/*.ts",
