@@ -1,7 +1,7 @@
 import express, { Router } from "express"
-import { authMiddleware } from "../middleware.js";
 import { createRoomSchema } from "@repo/common/types";
 import { prisma } from "@repo/db/client";
+import { authMiddleware } from "../middleware/middleware.js";
 
 const router: Router = express.Router()
 router.use(express.json())
